@@ -5,8 +5,10 @@ import './App.css';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import EventsClass from "./components/EventsClass";
-import EventsFunctional from "./components/EventsFunctional";
+// import EventsClass from "./components/EventsClass";
+// import EventsFunctional from "./components/EventsFunctional";
+import ConditionalRenderingClass from "./components/ConditionalRenderingClass"
+import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional"
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="Dave" /> */}
       {/* <StatefulGreetingWithCallback greeting="I'm a stateful class component!" name="Dave" /> */}
       {/* <StatefulGreetingWithPrevState /> */}
-      <EventsFunctional />
-      <EventsClass />
+      {/* <EventsFunctional /> */}
+      {/* <EventsClass /> */}
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
